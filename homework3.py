@@ -12,6 +12,6 @@ student_class_info = [
     ("6662118052", "计算机203班")
 ]
 
-L = [student_basic_info[i] + tuple([student_basic_info[i][1]]) for i in range(4)]
+L = [student_basic_info[i] + tuple([student_class_info[i][1]]) for i in range(4)]
 for info in L:
     print(info)
